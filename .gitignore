@@ -1,0 +1,16 @@
+
+try-threading/try/try/Debug/try\.tlog/
+
+try-threading/try/try/Debug/
+
+*.opendb
+
+*.db
+
+*.pdb
+
+*.ilk
+
+*.exe
+
+try-threading/try/\.vs/try/v14/\.suo
