@@ -21,7 +21,9 @@ int main()
 	std::thread thrd(fun);
 	std::cout << "thrd actully do its work, running\n";
 	//join
-	thrd.join();
+	//thrd.join();
+	//if not join, system will crash
+
 	bool check = thrd.joinable();
 	std::cout << "back to main thread\n";
 
