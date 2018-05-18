@@ -29,4 +29,3 @@ int main()
 	// safely exit application, but the other thread is out of control
     return 0;
 }
-

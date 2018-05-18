@@ -9,7 +9,7 @@
 void fun()
 {
 	// dead loop
-	for(int i=0;i<10000;i++)
+	for(int i=0;i<10;i++)
 		std::cout << "Hello threading!\n";
 	return;
 }
@@ -20,13 +20,13 @@ int main()
 	// create thread object
 	std::thread thrd(fun);
 	std::cout << "thrd actully do its work, running\n";
-	//transfer out the ownership of from object thrd
-	thrd.detach();
-	// check thrd property
+	//join
+	//thrd.join();
+	//If not join, system will crash when destroy this thread as quit the calling function
+
 	bool check = thrd.joinable();
 	std::cout << "back to main thread\n";
 
-	// safely exit application, but the other thread is out of control
     return 0;
 }
 
