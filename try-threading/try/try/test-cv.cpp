@@ -28,14 +28,21 @@ bool ready = false;
 
 void print_id(int id) {
 	std::unique_lock<std::mutex> lck(mtx);
-	while (!ready) cv.wait(lck);
-	// ...
-	std::cout << "thread " << id << '\n';
+	//do sth #1
+	std::cout << "thread " << id << " creation" <<'\n';
+	// wait for lord notify, then block the current process
+	cv.wait(lck);
+	// freedom, continue process
+	std::cout << "thread " << id << " notified " << "\n";
 }
 
 void go() {
+
 	std::unique_lock<std::mutex> lck(mtx);
-	ready = true;
+	for (int i=1 ;i<100*100;i++)
+		std::cout << "wait tick " << i <<"\r";
+	std::cout << "\nmy work are done, then notify \n";
+	//release slaves
 	cv.notify_all();
 }
 
@@ -43,6 +50,7 @@ int main()
 {
 	std::thread threads[10];
 	// spawn 10 threads:
+	// crearted orderly
 	for (int i = 0; i<10; ++i)
 		threads[i] = std::thread(print_id, i);
 
