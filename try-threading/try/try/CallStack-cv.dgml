@@ -19,7 +19,7 @@
       <Category Ref="CodeSchema_SourceLocation" />
       <Category Ref="ExternalCallStackEntry" />
     </Node>
-    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="177.106679585775,110.364503626165,75.9433333333333,25.96" Label="print_id" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="177.106679585775,110.364503626165,75.9433333333333,25.96" Label="print_id" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=32 StartCharacterOffset=0 EndLineNumber=32 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
@@ -43,16 +43,15 @@
       <Category Ref="CodeSchema_SourceLocation" />
       <Category Ref="ExternalCallStackEntry" />
     </Node>
-    <Node Id="@4" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="452.008333333333,55.9599999999999,62.14,25.96" Label="main" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=52 StartCharacterOffset=0 EndLineNumber=52 EndCharacterOffset=0)">
+    <Node Id="@4" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="452.008333333333,55.9599999999999,62.14,25.96" Label="main" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=60 StartCharacterOffset=0 EndLineNumber=60 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@6" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="246.310012919108,54.4044036261654,175.536666666667,25.96" Label="`dynamic initializer for 'cv''" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=25 StartCharacterOffset=0 EndLineNumber=25 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="447.03,111.92,50.0966666666667,25.96" Label="go" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=39 StartCharacterOffset=0 EndLineNumber=39 EndCharacterOffset=0)">
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="447.03,111.92,50.0966666666667,25.96" Label="go" SourceLocation="(Assembly=&quot;file:///c:/users/czhao/onedrive - nanometrics/cpp-concurrency-in-action/try-threading/try/try/try.cpp&quot; StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
@@ -68,39 +67,33 @@
     </Node>
     <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="178.029448038737,-2.11125121836662,92.9866666666667,25.96" Label="External Code" UseManualLocation="True">
       <Category Ref="CallStackEntry" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
   </Nodes>
   <Links>
-    <Link Source="@10" Target="@13" Category="CallStackDirectCall" Bounds="208.078324249082,193.840000610352,5.24623089859233E-06,76.9599829101562" />
-    <Link Source="@10" Target="@3" Category="CallStackDirectCall" Bounds="235.827267441011,193.184052081561,60.7999144307261,27.0028752379503" />
-    <Link Source="@11" Target="@13" Category="CallStackDirectCall" Bounds="264.51123046875,246.224395751953,138.242095947266,33.0599365234375" />
-    <Link Source="@12" Target="@10" Category="CallStackDirectCall" Bounds="210.745413721145,136.324503626165,2.75317921518393,22.6214218692255" />
-    <Link Source="@14" Target="@11" Category="CallStackDirectCall" Bounds="483.215836729909,193.840051068115,67.3723326709829,26.6857756087933" />
-    <Link Source="@15" Target="@14" Category="CallStackDirectCall" Bounds="567.782241893017,137.879951068115,7.8055586141993,21.5386005390849" />
-    <Link Source="@4" Target="(Name=std::thread::join @1 @5 @2)" Category="CallStackDirectCall" Bounds="514.148297671558,78.9322641460296,106.545570325299,34.2661260228835" />
-    <Link Source="@4" Target="@15" Category="CallStackDirectCall" Bounds="501.634397224947,81.9198482070923,35.5130227262143,24.8414097964329" />
-    <Link Source="@4" Target="@7" Category="CallStackDirectCall" Bounds="476.365692137483,81.9198482070923,4.16117399312202,21.1690941624773" />
-    <Link Source="@6" Target="@8" Category="CallStackDirectCall" Bounds="334.136892320265,80.3644032287598,0.34712807928247,76.9602918965548" />
-    <Link Source="@7" Target="@9" Category="CallStackDirectCall" Bounds="472.15407012388,137.879948207092,0.122525476985629,21.0002531810945" />
-    <Link Source="@8" Target="@3" Category="CallStackDirectCall" Bounds="334.271257561246,192.284603626165,0.197975299963502,22.5557350926691" />
-    <Link Source="@9" Target="@3" Category="CallStackDirectCall" Bounds="374.506534631144,193.840061558533,65.8132220396559,26.6247171929499" />
+    <Link Source="@10" Target="@13" Category="CallStackDirectCall" Bounds="208.078333333333,193.84,2.27373675443232E-13,76.9599999999999" />
+    <Link Source="@10" Target="@3" Category="CallStackDirectCall" Bounds="235.827274695137,193.184053639734,60.7999102599195,27.0028807789293" />
+    <Link Source="@11" Target="@13" Category="CallStackDirectCall" Bounds="264.511235797386,246.224523706961,138.242097535947,33.0598520330538" />
+    <Link Source="@12" Target="@10" Category="CallStackDirectCall" Bounds="210.745419942624,136.324503626165,2.75317522674493,22.6214210745427" />
+    <Link Source="@14" Target="@11" Category="CallStackDirectCall" Bounds="483.21583591845,193.840051068115,67.372343902163,26.6857885425501" />
+    <Link Source="@15" Target="@14" Category="CallStackDirectCall" Bounds="567.782265382403,137.88,7.80553786502355,21.5385512441737" />
+    <Link Source="@4" Target="(Name=std::thread::join @1 @5 @2)" Category="CallStackDirectCall" Bounds="514.148307648355,78.9322761248562,106.545554908625,34.2661146577989" />
+    <Link Source="@4" Target="@15" Category="CallStackDirectCall" Bounds="501.634399098587,81.919862051773,35.513055232934,24.8414433724748" />
+    <Link Source="@4" Target="@7" Category="CallStackDirectCall" Bounds="476.365692705454,81.919862051773,4.16117985493588,21.1690946182003" />
+    <Link Source="@6" Target="@8" Category="CallStackDirectCall" Bounds="334.136892320447,80.3644036261654,0.347128078792196,76.9602915486545" />
+    <Link Source="@7" Target="@9" Category="CallStackDirectCall" Bounds="472.15406606112,137.879962051773,0.122527462095547,21.0002531860579" />
+    <Link Source="@8" Target="@3" Category="CallStackDirectCall" Bounds="334.271254266333,192.284603626165,0.197977416817821,22.5557430344086" />
+    <Link Source="@9" Target="@3" Category="CallStackDirectCall" Bounds="374.506531196474,193.840062051773,65.8132445045025,26.6247247960606" />
     <Link Source="ExternalCodeRootNode" Target="(Name=&quot;`dynamic initializer for 'mtx''&quot; @1 @5 @2)" Category="CallStackIndirectCall" Bounds="134.458859896116,23.8487487816334,60.3741941272141,26.3948883924154" />
-    <Link Source="ExternalCodeRootNode" Target="@12" Category="CallStackIndirectCall" Bounds="216.921326677101,23.8487487816334,6.51154181105682,77.5473103906239" />
-    <Link Source="ExternalCodeRootNode" Target="@4" Category="CallStackIndirectCall" Bounds="271.01611328125,19.9947986602783,172.256469726563,39.0805110931396">
-      <Category Ref="CurrentCallStackCall" />
-    </Link>
-    <Link Source="ExternalCodeRootNode" Target="@6" Category="CallStackIndirectCall" Bounds="249.684504191322,23.8487487816334,51.2336660451136,26.4295489638235" />
+    <Link Source="ExternalCodeRootNode" Target="@12" Category="CallStackIndirectCall" Bounds="216.921326579959,23.8487487816334,6.51154196581166,77.5473163328057" />
+    <Link Source="ExternalCodeRootNode" Target="@4" Category="CallStackIndirectCall" Bounds="271.01611328125,19.9947986602783,172.256469726563,39.0805110931396" />
+    <Link Source="ExternalCodeRootNode" Target="@6" Category="CallStackIndirectCall" Bounds="249.684504014391,23.8487487816334,51.2336664107983,26.4295493383135" />
   </Links>
   <Categories>
-    <Category Id="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" />
     <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
     <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
     <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
     <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="Unresolved Method" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="Unresolved Method" />
     <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
-    <Category Id="CurrentCallStackCall" Label="Current Call Stack call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Current Call Stack call" OutgoingActionLabel="Current Call Stack call" />
-    <Category Id="CurrentCallStackEntry" Label="Current Call Stack Entry" BasedOn="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Current Call Stack Entry" />
     <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
   </Categories>
   <Properties>
@@ -112,7 +105,7 @@
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="Expression" DataType="System.String" />
     <Property Id="GroupLabel" DataType="System.String" />
-    <Property Id="Icon" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
